@@ -1,0 +1,188 @@
+@media (max-width: 1260px) {
+.container {
+    width: 80%;
+}
+.info__item {
+    padding: 30px;
+}
+
+
+
+.info__title{
+font-size: 16px;
+}
+
+.info__text {
+font-size: 14px;
+}
+
+}
+
+@media (max-width: 1080px) {
+    .intro__title {
+        letter-spacing: unset;
+    }
+
+    .about__block {
+        padding-right: 30px;
+    }
+
+    .services__content {
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 992px) {
+     
+     .section {
+        margin-bottom: 30px;
+     }
+
+
+    .intro__content {
+        height: 530px;
+        justify-content: center;
+    }
+
+     .header__logo img  {
+        height: 55px;
+
+     }
+
+     .intro__block{
+        text-align: center;
+     }
+
+     .intro__title{
+        font-size: 34px;
+     }
+
+
+    .info__item{
+        padding: 20px;
+    }
+    .services__content{
+        height: 300px;   
+    }
+
+
+    .services__content-item {
+        display: none;
+    }
+    .services__content:after  {
+        display: none;
+
+    }
+    .about{
+        padding: 30px 0;
+    }
+    .about__wrapper {
+        flex-direction: column;
+    }
+    .about__block {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .about__img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .about__text{
+       margin: 20px 0 30px; 
+       text-align: justify;
+    }
+    .process__title {
+        font-size: 100px-;
+    }
+
+    .process__subtitle {
+        margin-bottom: 30px;
+    }
+
+    .section-process {
+        padding-top: 0;
+    }
+
+    .process__item {
+        text-align: center;
+        min-height:auto ;
+        padding: 20px 0 12px;
+    }
+}
+
+
+    @media (max-width: 850px) {
+        .info {
+            transform: translateY(-75px);
+        }
+
+        .wrapper {
+            flex-wrap: wrap;
+        }
+
+        .block {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+
+        .info__item {
+            text-align: center;
+        }
+
+
+        .services__content {
+            height: 450px;
+            background-position: center;
+        }
+
+        
+        .process__title {
+            font-size: 100px;
+
+        }
+
+        .block__title-about {
+            text-align: center;
+        }
+
+        .contacts__form {
+            margin: 0 auto;
+        }
+
+
+
+    }
+
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+}
+
+
+@media (max-width: 560px) {
+    .services__content{
+        height: 300px;
+    }
+
+    .process__title {
+        font-size: 72px;
+    }
+
+    .process__subtitle {
+        font-size: 25px;
+    }
+
+    .footer__wrapper {
+        height: auto;
+        padding: 30px;
+        flex-direction: column;
+    }
+}
+
+
+
